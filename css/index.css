@@ -1,0 +1,108 @@
+*{margin: 0;
+	padding: 0;
+	}
+.header .navbar{
+	   	height: 100px;
+	    margin-bottom: 0;
+	    background-color: rgba(0,0,0,0.6);
+	    border: 0;
+}
+.header .nav>li>a{
+	padding: 0px 15px;
+	font-size: 18px;
+}
+.header .navbar-nav{
+	height: 100px;
+	float: right;
+	
+}
+.header .navbar-nav li{
+	margin: 0 15px;
+	height: 100px;
+	line-height: 100px;
+}
+.header .navbar-nav li a{
+	line-height: 100px;
+}
+.header .navbar-nav li a:hover{
+	text-decoration: underline;
+}
+.bodyer1{
+	margin-top: 10px;
+	
+}
+
+
+@media (max-width:1200px){
+.navbar-nav {
+   display: none;
+}
+
+}
+.bodyer2 .bj{
+	width: 100%;
+    height: 780px;
+    position: relative;
+    background: url(../img/bodyer-5.jpg) no-repeat;
+    background-position: top center;
+}
+.bodyer2 .bj h3{
+	width: 100%;
+	position: absolute;
+	top: 30%;
+    line-height: 100px;
+    color: #ffffff;
+    font-size: 45px;
+   	
+    
+}
+.bodyer2 .bj p{
+	width: 100%;
+	position: absolute;
+	bottom: 5%;
+	color: white;
+	text-align: center;
+	font-size:28px ;
+}
+.bodyer3 .sm p{
+	margin:0;
+	line-height: 32px;
+    font-size: 14px;
+    color: #8d8d8d;
+}
+.foot{
+	width: 100%;
+	
+	background: #101010;
+}
+.foot .top img{
+	margin: 50px auto;
+	
+}
+.foot .top p{
+	color: white;
+	margin: 20px;
+}
+.foot .top i{
+	background: url(../img/foot-1.png) no-repeat ;
+	display: inline-block;
+    width: 24px;
+    height: 22px;
+}
+.foot .top span{
+	background: url(../img/foot-1.png) no-repeat ;
+	    background-position: -24px 0;
+	display: inline-block;
+    width: 24px;
+    height: 22px;
+}
+.foot .bottom{
+	border-top:1px solid #262626 ;
+}
+.foot .bottom p{
+	color: white;
+	margin:20px 0 ;
+}
+.bodyer4 h3{
+	color:red;
+}
